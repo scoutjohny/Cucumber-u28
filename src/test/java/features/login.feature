@@ -27,7 +27,7 @@ Feature: Login
     And I click on the login button
     Then I should se the error message "Epic sadface: Username and password do not match any user in this service"
 
-  @Smoke
+#  @Smoke
   Scenario Outline:  Login with invalid credentials
   As a user I shouldn't be able to login using invalid username and/or password
 
